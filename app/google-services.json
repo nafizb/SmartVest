@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "705649397056",
+    "firebase_url": "https://smartvest-94ed0.firebaseio.com",
+    "project_id": "smartvest-94ed0",
+    "storage_bucket": "smartvest-94ed0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705649397056:android:2685fc47ad28fadc",
+        "android_client_info": {
+          "package_name": "com.btp.smartvest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "<firebase-client-id>",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "<firebase-secret-key>"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "<firebase-client-id>",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

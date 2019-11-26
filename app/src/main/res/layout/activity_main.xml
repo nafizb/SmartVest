@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="32dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/hero" />
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/button_border"
+        android:text="Tap to monitor"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:onClick="onStartClick"/>
+    <!-- -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonStart"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:padding="32dp"
+        android:src="@drawable/logo_with_slogan" />
+</RelativeLayout>
